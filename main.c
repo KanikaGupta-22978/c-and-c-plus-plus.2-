@@ -2,7 +2,7 @@
 #include <stdio.h> // standard input/output library
 #include <stdlib.h> // memory allocation function container
 
-int main() // inside it will only be executed
+int main() // code inside it will only be executed
 {
     // declare a variable
     int value;
