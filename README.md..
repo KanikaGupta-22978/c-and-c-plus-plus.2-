@@ -6,4 +6,4 @@ HEAP
 Intro to Pointers
 
 Arrays and Vectors- 1D data structures containing the elements. list of data values, inside them we can store multipke values.
-The memory section in which they are stored as arrays are statically allocated(STACK) and vectors are dynamically allocated(HEAP) 
+The memory section in which they are stored as arrays are statically allocated(STACK) and vectors are dynamically allocated(HEAP- intro to pointers in c and cpp prpgramming simultaneously) 
