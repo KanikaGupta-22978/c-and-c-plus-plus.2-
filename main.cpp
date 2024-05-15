@@ -2,32 +2,32 @@
 #include <iostream>// input-output stream library
 #include <fstream>
 using namespace std;
-// int main()
-// {
-//     int value(19);
-//     cout<< value<< endl<< 2<< endl<< 5;
-//    return 0; 
-// }
+ int main()
+{
+    int value(19);
+   cout<< value<< endl<< 2<< endl<< 5;
+   return 0; 
+ }
 
 // 2.
-// int main()
-// {
-//     char value;
-//     cin>> value;
-//     cout<< value;
-//     return 0;
-// }
+int main()
+{
+   char value;
+    cin>> value;
+  cout<< value;
+    return 0;
+ }
 
 // 3.
-// int main()
-// {
-//     ifstream input_file("file.in");
-//     ofstream output_file("file.out");
-//     int value;
-//         input_file>> value;
-//         output_file<< value;
-//         return 0;
-// }
+int main()
+{
+    ifstream input_file("file.in");    
+     ofstream output_file("file.out");
+   int value;
+        input_file>> value;
+        output_file<< value;
+       return 0;
+ }
 
 // 4.
 int main()
