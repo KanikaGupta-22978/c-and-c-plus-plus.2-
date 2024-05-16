@@ -1,9 +1,14 @@
-Types of memory-
+a. Types of memory-
 1. Statistically Allocated Memory-
 STACK
 2. Dynamically Allocated Memory-
 HEAP
 Intro to Pointers
 
-Arrays and Vectors- 1D data structures containing the elements. list of data values, inside them we can store multipke values.
-The memory section in which they are stored as arrays are statically allocated(STACK) and vectors are dynamically allocated(HEAP- intro to pointers in c and cpp prpgramming simultaneously) 
+b. Arrays and Vectors- 1D data structures containing the elements. list of data values, inside them we can store multipke values.
+The memory section in which they are stored as arrays are statically allocated(STACK) and vectors are dynamically allocated(HEAP- intro to pointers in c and cpp programming simultaneously) 
+
+c. Memory managment of arrays and vectors (pointers)-
+In arrays- memory allocation is done by malloc function and deletion of that memory is done by free function
+whereas
+In vectors- by new int and by delete[] function respectively.
