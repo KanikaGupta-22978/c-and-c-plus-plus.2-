@@ -34,7 +34,18 @@ int binary_search_iterative(int *arr, int left, int right, int value)
     // flag for not finding the target value position
     return -1;
 }
+// Test case-
+int main()
+{
+    int arr[3]= {1,2,3};
+    cout<< binary_search_iterative(arr, 0, 2, 3)<< endl;
+    return 0;
+}
 
+// 2. Recusrive Approach
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
 int binary_search(int * arr, int left, int right, int value)
 {
     if (left>right)
@@ -56,6 +67,21 @@ int binary_search(int * arr, int left, int right, int value)
 int main()
 {
     int arr[3]= {1,2,3};
-    cout<< binary_search_iterative(arr, 0, 2, 3)<< endl;
+    cout<< binary_search(arr, 0, 2, 3)<< endl;
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
