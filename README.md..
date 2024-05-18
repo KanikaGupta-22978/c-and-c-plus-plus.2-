@@ -31,4 +31,10 @@ In vectors- by new int and by delete[] function respectively.
 d. Manipulating Arrays and Vectors
 How to read, write and use values inside of this data structures
 
+e. Matrices
+They are multi- dimensional collection of datas arranged in order of rows and columns or a 2D array basically.
+Declaring, manipulating, and managing the memory of matrices
+
+
+
 
